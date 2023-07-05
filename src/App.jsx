@@ -4,9 +4,9 @@ import "./App.css";
 function App() {
   const navigate = useNavigate();
   return (
-    <div className="flex items-center justify-center h-screen bg-navy">
+    <div className="flex items-center justify-center h-screen">
       <button
-        className="rounded-none hover:p-5 bg-purple-600 text-peach bg-dark-navy p-4 text-3xl"
+        className="hover:p-5 bg-yellow  text-white p-4 text-3xl font-semibold"
         onClick={() => {
           navigate("/start-quiz");
         }}

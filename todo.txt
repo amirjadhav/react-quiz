@@ -1,0 +1,15 @@
+1. deploy backend on server
+2. deploy front end
+3. verify connection
+
+
+4. update backend to add user email id before start quiz
+5. make database and store result in postgres db
+6. add endpoit to response top leader board with paginantion and sort by score feature.
+
+5. update ui to support email entry functionality,
+6. display leader board after quiz submittion
+7. Restrict user to go back from quiz page.
+
+8. make docker image
+9. host backend on AWS 
