@@ -1,0 +1,1 @@
+export const BASE_URL = 'https://goquiz-jadhavamir100.b4a.run/'

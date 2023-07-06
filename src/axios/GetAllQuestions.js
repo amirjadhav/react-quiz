@@ -1,10 +1,11 @@
 import axios from "axios";
+import { BASE_URL } from "../util/constants";
 
 
 const getAllQuestions = async () => {
   try {
     const response = await axios.get(
-      "http://localhost:3000/api/startquiz/"
+      BASE_URL + "api/startquiz/"
     );
     return response.data;
   } catch (error) {

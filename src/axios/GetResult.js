@@ -1,9 +1,10 @@
 import axios from "axios";
+import { BASE_URL } from "../util/constants";
 
 const GetResult = async (answers) => {
     try {
         const response = await axios
-            .post("http://localhost:3000/api/submitquiz", answers)
+            .post(BASE_URL + "api/submitquiz", answers)
 
         return response.data;
     }
